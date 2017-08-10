@@ -3,10 +3,42 @@ body{
 	padding: 0;
 }
 
-.welcome{
-	background-color:$color-rojo;
+nav{
+	background-color:$color-negro;
+	color:white;
 }
 
-.mis-pelis{
-	margin-top:30px;
+.mar_welcome{
+	background-color:$color-rojo;
+	height:100vh;
+}
+
+.mar_mis-pelis{
+	margin-top:50px;
+	font-weight:bolder;
+}
+
+.mar_registro{
+	background-color:$color-plomo;
+	height:100vh;
+}
+
+input[type]{
+	background-color:$color-blanco;
+}
+
+.mar_btn-create{
+	background-color:$color-negro;
+	color:white;
+	width:90%;
+}
+
+.mar_btn-login{
+	width:90%;
+	background-color:$color-blanco;
+	color:$color-rojo;
+}
+
+.mar_btn-createaccount{
+	@extend .mar_btn-login;
 }
