@@ -7,7 +7,7 @@ var webserver = require('gulp-webserver');
 
 
 gulp.task('script', function(){
-	gulp.src(['node_modules/jquery/dist/jquery.js','node_modules/materialize-css/dist/js/materialize.js','assets/js/*.js'])
+	gulp.src(['node_modules/jquery/dist/jquery.js','node_modules/materialize-css/dist/js/materialize.js','assets/js/main.js','assets/js/common.js'])
 		.pipe(concat('script.js'))
 		.pipe(gulp.dest('dist/js/'));
 });
@@ -22,7 +22,7 @@ gulp.task('style',function(){
 
 
 gulp.task('webserver',function(){
- 	gulp.src('../airbnb/')
+ 	gulp.src('../mis-pelis/')
  	.pipe(webserver({
  			fallback: 'index.html',
  			livereload: true,
