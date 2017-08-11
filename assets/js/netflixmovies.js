@@ -162,7 +162,7 @@ $(document).ready(function(){
      }
 ];
 pelis.forEach(function(element){
-  $('.car_contenedorpeli').append('<div class="container-fluid"><div class="row"><div class="col xs12"><ul class="collapsible" data-collapsible="accordion"><li><div class="collapsible-header"><div class="primeralinea"><h1 class="car_name"><strong>'+element.show_title+'</strong></h1><h1 class="car_ano">'+ element.release_year +'</h1><h1 class="car_categoria">'+ element.category +'</h1></div><div class="segundalinea"><h2 class="car_duracion"><i class="fa fa-clock-o" aria-hidden="true"></i>'+element.runtime+'</h2><h2 class="car_director"><i class="fa fa-desktop" aria-hidden="true"></i>'+element.director +'</h2><div class="txt-center"><form><div class="rating"><input id="star5" name="star" type="radio" value="5" class="radio-btn hide" /><label for="star5" >☆</label><input id="star4" name="star" type="radio" value="4" class="radio-btn hide" /><label for="star4" >☆</label><input id="star3" name="star" type="radio" value="3" class="radio-btn hide" /><label for="star3" >☆</label><input id="star2" name="star" type="radio" value="2" class="radio-btn hide" /><label for="star2" >☆</label><input id="star1" name="star" type="radio" value="1" class="radio-btn hide" /><label for="star1" >☆</label><div class="clear"></div></div></form></div></div></div><div class="collapsible-body"><img src='+element.poster+'><p class="summary">'+element.summary+'</p></div></li></ul></div></div></div></div>');
+  $('.car_contenedorpeli').append('<div class="container-fluid"><div class="row"><div class="col xs12"><ul class="collapsible" data-collapsible="accordion"><li><div class="collapsible-header"><div class="primeralinea"><h1 id=""class="car_name"><strong>'+element.show_title+'</strong></h1><h1 class="car_ano">'+ element.release_year +'</h1><h1 class="car_categoria">'+ element.category +'</h1><a class="btn and-btn-favoritos" id="boton-añadirFavoritos">Favoritos</a></div><div class="segundalinea"><h2 class="car_duracion"><i class="fa fa-clock-o" aria-hidden="true"></i>'+element.runtime+'</h2><h2 class="car_director"><i class="fa fa-desktop" aria-hidden="true"></i>'+element.director +'</h2><div class="txt-center"><form><div class="rating"><input id="star5" name="star" type="radio" value="5" class="radio-btn hide" /><label for="star5" >☆</label><input id="star4" name="star" type="radio" value="4" class="radio-btn hide" /><label for="star4" >☆</label><input id="star3" name="star" type="radio" value="3" class="radio-btn hide" /><label for="star3" >☆</label><input id="star2" name="star" type="radio" value="2" class="radio-btn hide" /><label for="star2" >☆</label><input id="star1" name="star" type="radio" value="1" class="radio-btn hide" /><label for="star1" >☆</label><div class="clear"></div></div></form></div></div></div><div class="collapsible-body"><img src='+element.poster+'><p class="summary">'+element.summary+'</p></div></li></ul></div></div></div></div>');
   });
 
    $('.container-fluid').on('click', function(){
@@ -180,5 +180,24 @@ pelis.forEach(function(element){
     
     //$('.car_detailpeli').append('<img src='+ "http://netflixroulette.net/api/posters/60032563.jpg"  +'class="car_imgpeli">');
   });
-
 });
+/*$(document).ready(function(){  
+    /Cuando se presiona el botón favoritos ocurre la siguiente función/      
+  $(’#boton-añadirFavoritos’).click(function(){      
+    /Creo variable para que guarde la pelicula; nombrePeli es el id usado en el div donde/ 
+    /irán las películas/     
+    var peliculaFavorita = $('#nombrePeli').value;
+    /Guardando los datos en el LocalStorage/
+    localStorage.setItem(“favorita”, peliculaFavorita);  
+  });   
+}); 
+/Funcion Cargar y Mostrar datos/ 
+$(document).ready(function(){     
+  $(’#boton-mostrarFavoritos’).click(function(){   
+    /Obtener datos almacenados/ 
+    var peliculaFav = localStorage.getItem(“favorita”);
+    /Mostrar datos almacenados; peliculasFavoritas es el id del div donde se cargarán los item guardados /     
+    $('#peliculasFavoritas').innerHTML = peliculaFav;
+
+  });   
+});*/

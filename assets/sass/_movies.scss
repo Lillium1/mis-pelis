@@ -30,7 +30,16 @@ strong {
     margin-left: 114px;
     margin-top: 20px;
 }
+.and-btn-favoritos{
+    background-color: #C14748;
+    width: 70px;
+    padding:0;
+    height: 30px;
+    text-transform: lowercase;
+  
 
+
+}
 // estrellas
 .txt-center {
   text-align: center;
@@ -45,7 +54,7 @@ strong {
 }
 
 .rating {
-    width: 90px;
+    width: 60px;
     unicode-bidi: bidi-override;
     direction: rtl;
     text-align: center;
