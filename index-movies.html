@@ -4,19 +4,91 @@
 	<meta charset="UTF-8">
 	<title>Mis Pelis</title>
 	<!-- Viewport -->
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
 	<!-- Icon -->
 	<link rel="icon" type="image/png" href="assets/img/icon.png" />
 	<!-- Pagination Materialize -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Fontawesome -->
+	<script src="https://use.fontawesome.com/046c2163eb.js"></script>
 	<!-- Css -->
 	<link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
 
 </head>
 <body>
+	<nav>
+	  <div class="nav-wrapper">
+	    <a href="#" class="brand-logo center"><h6>MOVIES</h6></a>
+	    <ul id="slide-out" class="side-nav">
+	      <li><a href="index5.html">Login</a></li>
+	      <li><a href="html6.html">Movies</a></li>
+	      <li><a href="index3.html">Details</a></li>
+	      <li><a href="index4.html">Profile</a></li>
+	      <li><a href="index2.html">Home</a></li>
+	    </ul>
+	    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+	    <!-- inicio side-nav -->
+	  </div>
+	</nav><!-- termino navbar y side-nav -->
+	<div class="car_selector">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col xs12">
+					<select id="selectpeliculas">
+						<option value="all">Selecciona tu categoría</option>
+						<option value="drama">Drama</option>
+						<option value="adventure">Action & Adventure</option>
+						<option value="oscar">Oscar-winning Movies</option>
+						<option value="independent">Independent Movies</option>
+						<option value="comedies">Comedies</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="car_contenedorpeli">
+		<!-- <div class="container-fluid">
+			<div class="row">
+				<div class="col xs12">
+					<ul class="collapsible" data-collapsible="accordion">
+					  <li>
+					    <div class="collapsible-header">
+							<div class="primeralinea">
+								<h1 class="car_name"><strong>Still Alice</strong></h1>
+								<h1 class="car_ano">2014</h1>
+								<h1 class="car_categoria">Drama</h1>
+							</div>
+							<div class="segundalinea">
+								<h2 class="car_duracion"><i class="fa fa-clock-o" aria-hidden="true"></i>101 minutos</h2>
+								<h2 class="car_director"><i class="fa fa-desktop" aria-hidden="true"></i>Richard Glatzer</h2>
+								<div class="txt-center">
+								  <form>
+								        <div class="rating">
+								            <input id="star5" name="star" type="radio" value="5" class="radio-btn hide" />
+								            <label for="star5" >☆</label>
+								            <input id="star4" name="star" type="radio" value="4" class="radio-btn hide" />
+								            <label for="star4" >☆</label>
+								            <input id="star3" name="star" type="radio" value="3" class="radio-btn hide" />
+								            <label for="star3" >☆</label>
+								            <input id="star2" name="star" type="radio" value="2" class="radio-btn hide" />
+								            <label for="star2" >☆</label>
+								            <input id="star1" name="star" type="radio" value="1" class="radio-btn hide" />
+								            <label for="star1" >☆</label>
+								            <div class="clear"></div>
+								        </div>
+								    </form>
+								</div>
+							</div>
+					    </div>
+					    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+					  </li>
+					</ul>
+				</div>
+			</div>
 
+		</div> -->
+	</div>
 	<script src="dist/js/script.js"></script>
-	<script src="https://use.fontawesome.com/046c2163eb.js"></script>
 </body>
 </html>
