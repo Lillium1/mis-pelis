@@ -21,6 +21,7 @@ nav{
 	margin-top:10px;
 }
 
+
 .mar_btn-login{
 	@include btn-login();
 }
@@ -59,7 +60,14 @@ nav.mar_nav-watch{
 #mar_imagen-pelicula{
 	@include imagen-detalles();
 }
-
 //término sección index details
 
+// index-actor -EXTRA-
 
+.pau_actor__img {
+	background-color: red;
+}
+
+.pau_actor__container-info {
+	color: #eaeaea;
+}
