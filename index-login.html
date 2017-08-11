@@ -22,8 +22,7 @@
 				<ul id="slide-out" class="side-nav">
 					<li><a href="index-login.html">Log In</a></li>
 					<li><a href="index-create-account.html">Create Account</a></li>
-					<li><a href="html-movies.html">Movies</a></li>
-					<li><a href="index-details.html">Details</a></li>
+					<li><a href="index-movies.html">Movies</a></li>
 					<li><a href="index-profile.html">Profile</a></li>
 					<li><a href="index.html">Home</a></li>
 				</ul>
@@ -39,12 +38,12 @@
 		<div class="row">
 			<form class="col s12 mar_formulario">     
 				<div class="input-field col s12">
-					<input id="first_name" type="text" class="validate">
-					<label>Nombre de Usuario</label>
+					<input id="username" type="text" class="validate" onclick="Materialize.toast('Ingrese Username', 4000)">
+					<label for="username">Nombre de Username</label>
 				</div>
 				<div class="input-field col s12">
-					<input id="contraseña" type="text" class="validate">
-					<label for="last_name">Contraseña</label>
+					<input id="pass" type="pass" class="validate" onclick="Materialize.toast('Ingrese Contraseña', 4000)">
+					<label for="pass">P</label>
 				</div>
 			</form>
 		</div>
