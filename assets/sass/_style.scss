@@ -1,12 +1,56 @@
+
 body{
 	margin: 0;
 	padding: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
-.welcome{
-	background-color:$color-rojo;
+nav{
+	@include barra-navegacion();
+		.mar_titulo-nav{
+			margin-top:20px;
+	}
 }
 
+.mar_welcome{
+	@include welcome();
+	 .mar_mis-pelis{
+		@include titulo-mis-pelis();
+	}
+}
+
+.logo{
+	margin-top:10px;
+}
+
+
+.mar_btn-login{
+	@include btn-login();
+}
+
+.mar_btn-createaccount{
+	@extend .mar_btn-login;
+}
+
+.mar_registro{
+	@include registro();
+	 .mar_formulario{
+	margin-top:40px;
+	}
+}
+
+.mar_btn-create{
+	@include btn-create();
+}
+
+//darle color blanco al fondo de input de materialize
+input:not([type]), input[type=date]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=email]:not(.browser-default), input[type=number]:not(.browser-default), input[type=password]:not(.browser-default), input[type=search]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=text]:not(.browser-default), input[type=time]:not(.browser-default), input[type=url]:not(.browser-default), textarea.materialize-textarea{
+	
+	background-color:$color-blanco;
+}
+
+
+/********** SECCION PROFILE ************/
 .mis-pelis{
 	margin-top:30px;
 }
@@ -31,4 +75,28 @@ body{
 //}
 .ani_profile_h4{
 	color:white;
+}
+
+/********** SECCION DETAILS **********/
+//imagen de muestra pues esta se debe llamar desde api
+#mar_imagen-pelicula{
+	@include imagen-detalles();
+}
+//término sección index details
+
+nav.mar_nav-watch{
+	background-color:$color-rojo;
+		.btn-floating.btn-large {
+    		margin-top: -30px;
+	}
+}
+
+/******** SECCION ACTOR - EXTRA ********/
+
+.pau_actor__img {
+	background-color: red;
+}
+
+.pau_actor__container-info {
+	color: #eaeaea;
 }

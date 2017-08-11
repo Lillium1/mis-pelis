@@ -1,0 +1,41 @@
+@mixin barra-navegacion{
+	background-color:$color-negro;
+	color:white;
+}
+
+@mixin welcome{
+	background-color:$color-rojo;
+	height:100vh;
+}
+
+@mixin titulo-mis-pelis{
+	margin-top:50px;
+	font-weight:bolder;
+	font-size:55px;
+}
+
+@mixin registro{
+	background-color:$color-plomo;
+	height:100vh;
+}
+
+@mixin btn-create{
+	background-color:$color-negro;
+	color:white;
+	width:90%;
+}
+
+@mixin btn-login{
+	width:90%;
+	background-color:$color-blanco;
+	color:$color-rojo;
+}
+
+@mixin imagen-detalles{
+	background-image:url(../img-removible/pulp.jpg);
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	height:40vh;
+}

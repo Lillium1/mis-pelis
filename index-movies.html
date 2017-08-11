@@ -1,22 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es_CL">
 <head>
 	<meta charset="UTF-8">
 	<title>Mis Pelis</title>
 	<!-- Viewport -->
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
 	<!-- Icon -->
 	<link rel="icon" type="image/png" href="assets/img/icon.png" />
 	<!-- Pagination Materialize -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Fontawesome -->
+	<script src="https://use.fontawesome.com/046c2163eb.js"></script>
 	<!-- Css -->
 	<link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
 
 </head>
 <body>
-
+	<nav>
+		<div class="container">
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo center"><h6 class="mar_titulo-nav">CREATE ACCOUNT</h6></a>
+				<ul id="slide-out" class="side-nav">
+					<li><a href="index-login.html">Log in</a></li>
+					<li><a href="index-movies.html">Movies</a></li>
+					<li><a href="index-details.html">Details</a></li>
+					<li><a href="index-profile.html">Profile</a></li>
+					<li><a href="index.html">Home</a></li>
+				</ul>
+				<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+				<i class="material-icons right">search</i>
+				<!-- inicio side-nav -->
+			</div>
+		</div>
+	</nav><!-- termino navbar y side-nav -->
+  
+  
+	<div class="car_selector">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col s12">
+					<select id="selectpeliculas">
+						<option value="all">Selecciona tu categoría</option>
+						<option value="drama">Drama</option>
+						<option value="adventure">Action & Adventure</option>
+						<option value="oscar">Oscar-winning Movies</option>
+						<option value="independent">Independent Movies</option>
+						<option value="comedies">Comedies</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>
+  
+  <!-- Mostrar peliculas -->
+	<div class="car_contenedorpeli"></div>
+  
 	<script src="dist/js/script.js"></script>
-	<script src="https://use.fontawesome.com/046c2163eb.js"></script>
 </body>
 </html>

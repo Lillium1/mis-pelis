@@ -7,9 +7,10 @@ var webserver = require('gulp-webserver');
 
 
 gulp.task('script', function(){
-	gulp.src(['node_modules/jquery/dist/jquery.js','node_modules/materialize-css/dist/js/materialize.js','assets/js/main.js','assets/js/common.js'])
-	.pipe(concat('script.js'))
-	.pipe(gulp.dest('dist/js/'));
+	gulp.src(['node_modules/jquery/dist/jquery.js','node_modules/materialize-css/dist/js/materialize.js','assets/js/*.js'])
+		.pipe(concat('script.js'))
+		.pipe(gulp.dest('dist/js/'));
+
 });
 
 gulp.task('style',function(){
@@ -22,6 +23,7 @@ gulp.task('style',function(){
 
 
 gulp.task('webserver',function(){
+
 	gulp.src('../mis-pelis/')
 	.pipe(webserver({
 		fallback: 'index.html',
@@ -30,8 +32,6 @@ gulp.task('webserver',function(){
 		open: true
 	}));
 });
-/*gulp.task("watch",function(){
-	gulp.watch("assets/sass/*.scss", ["style"]);
-});*/
+ 
+ gulp.task('default',['script','style','webserver']); 
 
-gulp.task('default',['script','style','webserver'/*,'watch'*/]); 
