@@ -17,6 +17,10 @@ nav{
 	}
 }
 
+.logo{
+	margin-top:10px;
+}
+
 .mar_btn-login{
 	@include btn-login();
 }
