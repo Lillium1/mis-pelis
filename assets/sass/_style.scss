@@ -49,7 +49,40 @@ input:not([type]), input[type=date]:not(.browser-default), input[type=datetime-l
 	background-color:$color-blanco;
 }
 
-//sección details index
+
+/********** SECCION PROFILE ************/
+.mis-pelis{
+	margin-top:30px;
+}
+
+
+/*-------- PROFILE ANI ---------*/
+
+.ani_profile_image{
+	width:150px;
+	margin-left:30%;
+	margin-top:70px;
+}
+.ani_profile_infoUser{
+	padding-left:30%;
+}
+#ani_profile_favoritos{
+	background-color:#c14748;
+	height:60px;
+}
+//.row .col{
+//	padding:0;
+//}
+.ani_profile_h4{
+	color:white;
+}
+
+/********** SECCION DETAILS **********/
+//imagen de muestra pues esta se debe llamar desde api
+#mar_imagen-pelicula{
+	@include imagen-detalles();
+}
+//término sección index details
 
 nav.mar_nav-watch{
 	background-color:$color-rojo;
@@ -58,13 +91,7 @@ nav.mar_nav-watch{
 	}
 }
 
-//imagen de muestra pues esta se debe llamar desde api
-#mar_imagen-pelicula{
-	@include imagen-detalles();
-}
-//término sección index details
-
-// index-actor -EXTRA-
+/******** SECCION ACTOR - EXTRA ********/
 
 .pau_actor__img {
 	background-color: red;
