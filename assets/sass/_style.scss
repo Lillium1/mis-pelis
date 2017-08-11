@@ -82,6 +82,15 @@ input:not([type]), input[type=date]:not(.browser-default), input[type=datetime-l
 #mar_imagen-pelicula{
 	@include imagen-detalles();
 }
+
+#mar_imagen-killbillpelicula{
+    @include imagen-detalles-killbill();
+}
+
+#mar_imagen-killbill2pelicula{
+    @include imagen-detalles-killbill-dos();
+}
+
 //término sección index details
 
 nav.mar_nav-watch{

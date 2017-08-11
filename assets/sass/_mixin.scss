@@ -32,10 +32,28 @@
 }
 
 @mixin imagen-detalles{
-	background-image:url(../img-removible/pulp.jpg);
-	background-size:cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	color: white;
-	height:40vh;
+    background-image:url(../img/pulpfiction.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height:40vh;
+}
+
+@mixin imagen-detalles-killbill{
+    background-image:url(../img/killbill.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height:60vh;
+}
+
+@mixin imagen-detalles-killbill-dos{
+    background-image:url(../img/killbill2.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height:60vh;
 }
