@@ -6,15 +6,53 @@
 	<!-- Viewport -->
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0">
 	<!-- Icon -->
-	<link rel="icon" type="image/png" href="assets/img/icon.png" />
+	<link rel="icon" type="image/png" href="assets/img/icon.png"/>
 	<!-- Pagination Materialize -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- Css -->
 	<link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
-
 </head>
 <body>
-
+	<!-- NAV -->
+	<nav>
+		<div class="container">
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo center"><h6 class="mar_titulo-nav">Log In</h6></a>
+				<ul id="slide-out" class="side-nav">
+					<li><a href="index-login.html">log In</a></li>
+					<li><a href="index-create-account.html">Create Account</a></li>
+					<li><a href="html-movies.html">Movies</a></li>
+					<li><a href="index-details.html">Details</a></li>
+					<li><a href="index-profile.html">Profile</a></li>
+					<li><a href="index.html">Home</a></li>
+				</ul>
+				<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+				<i class="material-icons right">search</i>
+				<!-- inicio side-nav -->
+			</div>
+		</div>
+	</nav>
+	<!-- NAV -->
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col s12 m12 l12 profile">
+					<img src="dist/image/foto-perfil.jpg" class="circle ani_profile_image">
+					<div class="ani_profile_infoUser">
+						<p><strong>Username:</strong></p><label type="text" id="usernamelab"></label>
+						<p><strong>Name:</strong></p><label type="text" id="namelab"></label>
+						<p><strong>Contry:</strong></p><label type="text" id="ciudadlab"></label>
+					</div>
+					<div class="col m12 s12 l12" id="ani_profile_favoritos">
+						<h4>My Favorites</h4>
+					</div>
+					<div class="col s12 m12 l12">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<script src="dist/js/script.js"></script>
 	<script src="https://use.fontawesome.com/046c2163eb.js"></script>
 </body>
