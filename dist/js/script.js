@@ -20260,215 +20260,183 @@ $(document).ready(function() {
 });/*plugin side nav*/
 
 $(document).ready(function(){
-	var pelis = [
+  var pelis = [{
+        "unit": 84,
 
-   {
+        "show_id": 60032563,
 
-      "unit": 84,
+        "show_title": "Kill Bill: Vol. 2",
 
-      "show_id": 60032563,
+        "release_year": "2004",
 
-      "show_title": "Kill Bill: Vol. 2",
+        "rating": "3.8",
 
-      "release_year": "2004",
+        "category": "Action & Adventure",
 
-      "rating": "3.8",
+        "show_cast": "Uma Thurman, David Carradine, Michael Madsen, Daryl Hannah, Gordon Liu, Michael Parks, Perla Haney-Jardine, Helen Kim, Claire Smithies, Clark Middleton",
 
-      "category": "Action & Adventure",
+        "director": "Quentin Tarantino",
 
-      "show_cast": "Uma Thurman, David Carradine, Michael Madsen, Daryl Hannah, Gordon Liu, Michael Parks, Perla Haney-Jardine, Helen Kim, Claire Smithies, Clark Middleton",
+        "summary": "The Bride has three left on her rampage list: Budd, Elle Driver and Bill himself. But when she arrives at Bill's house, she's in for a surprise.",
 
-      "director": "Quentin Tarantino",
+        "poster": "http://netflixroulette.net/api/posters/60032563.jpg",
 
-      "summary": "The Bride has three left on her rampage list: Budd, Elle Driver and Bill himself. But when she arrives at Bill's house, she's in for a surprise.",
+        "mediatype": 0,
 
-      "poster": "http://netflixroulette.net/api/posters/60032563.jpg",
+        "runtime": "137 min"
 
-      "mediatype": 0,
+     },
+     {
 
-      "runtime": "137 min"
+        "unit": 87,
 
-   },
+        "show_id": 60031236,
 
-   {
+        "show_title": "Kill Bill: Vol. 1",
 
-      "unit": 87,
+        "release_year": "2003",
 
-      "show_id": 60031236,
+        "rating": "3.8",
 
-      "show_title": "Kill Bill: Vol. 1",
+        "category": "Action & Adventure",
 
-      "release_year": "2003",
+        "show_cast": "Uma Thurman, Lucy Liu, Vivica A. Fox, Daryl Hannah, David Carradine, Michael Madsen, Julie Dreyfus, Chiaki Kuriyama, Sonny Chiba, Gordon Liu",
 
-      "rating": "3.8",
+        "director": "Quentin Tarantino",
 
-      "category": "Action & Adventure",
+        "summary": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle. But she lives -- and plots her vengeance.",
 
-      "show_cast": "Uma Thurman, Lucy Liu, Vivica A. Fox, Daryl Hannah, David Carradine, Michael Madsen, Julie Dreyfus, Chiaki Kuriyama, Sonny Chiba, Gordon Liu",
+        "poster": "http://netflixroulette.net/api/posters/60031236.jpg",
 
-      "director": "Quentin Tarantino",
+        "mediatype": 0,
 
-      "summary": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle. But she lives -- and plots her vengeance.",
+        "runtime": "111 min"
 
-      "poster": "http://netflixroulette.net/api/posters/60031236.jpg",
+     },
+     {
 
-      "mediatype": 0,
+        "unit": 914,
 
-      "runtime": "111 min"
+        "show_id": 880640,
 
-   },
+        "show_title": "Pulp Fiction",
 
-   {
+        "release_year": "1994",
 
-      "unit": 914,
+        "rating": "4.1",
 
-      "show_id": 880640,
+        "category": "Oscar-winning Movies",
 
-      "show_title": "Pulp Fiction",
+        "show_cast": "John Travolta, Samuel L. Jackson, Uma Thurman, Bruce Willis, Harvey Keitel, Tim Roth, Amanda Plummer, Ving Rhames, Eric Stoltz, Maria de Medeiros",
 
-      "release_year": "1994",
+        "director": "Quentin Tarantino",
 
-      "rating": "4.1",
+        "summary": "Weaving together three stories featuring a burger-loving hit man, his philosophical partner and a washed-up boxer, Quentin Tarantino influenced a generation of filmmakers with this crime caper's stylized, over-the-top violence and dark comic spirit.",
 
-      "category": "Oscar-winning Movies",
+        "poster": "http://netflixroulette.net/api/posters/880640.jpg",
 
-      "show_cast": "John Travolta, Samuel L. Jackson, Uma Thurman, Bruce Willis, Harvey Keitel, Tim Roth, Amanda Plummer, Ving Rhames, Eric Stoltz, Maria de Medeiros",
+        "mediatype": 0,
 
-      "director": "Quentin Tarantino",
+        "runtime": "154 min"
 
-      "summary": "Weaving together three stories featuring a burger-loving hit man, his philosophical partner and a washed-up boxer, Quentin Tarantino influenced a generation of filmmakers with this crime caper's stylized, over-the-top violence and dark comic spirit.",
+     },
+     {
 
-      "poster": "http://netflixroulette.net/api/posters/880640.jpg",
+        "unit": 943,
 
-      "mediatype": 0,
+        "show_id": 60010514,
 
-      "runtime": "154 min"
+        "show_title": "Jackie Brown",
 
-   },
+        "release_year": "1997",
 
-   {
+        "rating": "3.7",
 
-      "unit": 943,
+        "category": "Dramas",
 
-      "show_id": 60010514,
+        "show_cast": "Pam Grier, Samuel L. Jackson, Robert Forster, Bridget Fonda, Michael Keaton, Robert De Niro, Michael Bowen, Chris Tucker, Lisa Gay Hamilton, Tommy 'Tiny' Lister",
 
-      "show_title": "Jackie Brown",
+        "director": "Quentin Tarantino",
 
-      "release_year": "1997",
+        "summary": "Jackie Brown is an aging flight attendant who smuggles cash on the side. But when she's busted and pressured to help with an investigation, she plans to play the opposing forces against each other and walk away with the dough.",
 
-      "rating": "3.7",
+        "poster": "http://netflixroulette.net/api/posters/60010514.jpg",
 
-      "category": "Dramas",
+        "mediatype": 0,
 
-      "show_cast": "Pam Grier, Samuel L. Jackson, Robert Forster, Bridget Fonda, Michael Keaton, Robert De Niro, Michael Bowen, Chris Tucker, Lisa Gay Hamilton, Tommy 'Tiny' Lister",
+        "runtime": "154 min"
 
-      "director": "Quentin Tarantino",
+     },
+     {
 
-      "summary": "Jackie Brown is an aging flight attendant who smuggles cash on the side. But when she's busted and pressured to help with an investigation, she plans to play the opposing forces against each other and walk away with the dough.",
+        "unit": 1151,
 
-      "poster": "http://netflixroulette.net/api/posters/60010514.jpg",
+        "show_id": 902003,
 
-      "mediatype": 0,
+        "show_title": "Reservoir Dogs",
 
-      "runtime": "154 min"
+        "release_year": "1992",
 
-   },
+        "rating": "4.0",
 
-   {
+        "category": "Independent Movies",
 
-      "unit": 1151,
+        "show_cast": "Harvey Keitel, Tim Roth, Michael Madsen, Steve Buscemi, Chris Penn, Lawrence Tierney, Edward Bunker, Quentin Tarantino, Randy Brooks, Kirk Baltz",
 
-      "show_id": 902003,
+        "director": "Quentin Tarantino",
 
-      "show_title": "Reservoir Dogs",
+        "summary": "Quentin Tarantino's directorial debut is raw, violent, often mimicked -- and unforgettable. A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors unravel.",
 
-      "release_year": "1992",
+        "poster": "http://netflixroulette.net/api/posters/902003.jpg",
 
-      "rating": "4.0",
+        "mediatype": 0,
 
-      "category": "Independent Movies",
+        "runtime": "99 min"
 
-      "show_cast": "Harvey Keitel, Tim Roth, Michael Madsen, Steve Buscemi, Chris Penn, Lawrence Tierney, Edward Bunker, Quentin Tarantino, Randy Brooks, Kirk Baltz",
+     },
+     {
 
-      "director": "Quentin Tarantino",
+        "unit": 1463,
 
-      "summary": "Quentin Tarantino's directorial debut is raw, violent, often mimicked -- and unforgettable. A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors unravel.",
+        "show_id": 520179,
 
-      "poster": "http://netflixroulette.net/api/posters/902003.jpg",
+        "show_title": "Four Rooms",
 
-      "mediatype": 0,
+        "release_year": "1995",
 
-      "runtime": "99 min"
+        "rating": "3.6",
 
-   },
+        "category": "Comedies",
 
-   {
+        "show_cast": "Tim Roth, Antonio Banderas, Jennifer Beals, Bruce Willis, Paul Calderon, Madonna, Marisa Tomei, Quentin Tarantino, Ione Skye, Lili Taylor",
 
-      "unit": 1463,
+        "director": "Quentin Tarantino, Robert Rodriguez, Allison Anders, Alexandre Rockwell",
 
-      "show_id": 520179,
+        "summary": "One mad New Year's Eve, an overwhelmed bellboy copes with witches and diabolical children, gets caught in the middle of a sour relationship and settles a bloody bet for members of a superstar's entourage.",
 
-      "show_title": "Four Rooms",
+        "poster": "http://netflixroulette.net/api/posters/520179.jpg",
 
-      "release_year": "1995",
+        "mediatype": 0,
 
-      "rating": "3.6",
+        "runtime": "98 min"
 
-      "category": "Comedies",
-
-      "show_cast": "Tim Roth, Antonio Banderas, Jennifer Beals, Bruce Willis, Paul Calderon, Madonna, Marisa Tomei, Quentin Tarantino, Ione Skye, Lili Taylor",
-
-      "director": "Quentin Tarantino, Robert Rodriguez, Allison Anders, Alexandre Rockwell",
-
-      "summary": "One mad New Year's Eve, an overwhelmed bellboy copes with witches and diabolical children, gets caught in the middle of a sour relationship and settles a bloody bet for members of a superstar's entourage.",
-
-      "poster": "http://netflixroulette.net/api/posters/520179.jpg",
-
-      "mediatype": 0,
-
-      "runtime": "98 min"
-
-   }
-
+     }
 ];
-
-	pelis.forEach(function(element){
-		console.log(element);
-		$('.car_contenedorpeli').append('<div class="container-fluid"><div class="row"><div class="col xs12"><ul class="collapsible" data-collapsible="accordion"><li><div class="collapsible-header"><div class="primeralinea"><h1 class="car_name"><strong>'+element.show_title+'</strong></h1><h1 class="car_ano">'+ element.release_year +'</h1><h1 class="car_categoria">'+ element.category +'</h1></div><div class="segundalinea"><h2 class="car_duracion"><i class="fa fa-clock-o" aria-hidden="true"></i>'+element.runtime+'</h2><h2 class="car_director"><i class="fa fa-desktop" aria-hidden="true"></i>'+element.director +'</h2><div class="txt-center"><form><div class="rating"><input id="star5" name="star" type="radio" value="5" class="radio-btn hide" /><label for="star5" >☆</label><input id="star4" name="star" type="radio" value="4" class="radio-btn hide" /><label for="star4" >☆</label><input id="star3" name="star" type="radio" value="3" class="radio-btn hide" /><label for="star3" >☆</label><input id="star2" name="star" type="radio" value="2" class="radio-btn hide" /><label for="star2" >☆</label><input id="star1" name="star" type="radio" value="1" class="radio-btn hide" /><label for="star1" >☆</label><div class="clear"></div></div></form></div></div></div><div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div></li></ul></div></div></div>')
-	});
+pelis.forEach(function(element){
+  $('.car_contenedorpeli').append('<div class="container-fluid"><div class="row"><div class="col xs12"><ul class="collapsible" data-collapsible="accordion"><li><div class="collapsible-header"><div class="primeralinea"><h1 class="car_name"><strong>'+element.show_title+'</strong></h1><h1 class="car_ano">'+ element.release_year +'</h1><h1 class="car_categoria">'+ element.category +'</h1></div><div class="segundalinea"><h2 class="car_duracion"><i class="fa fa-clock-o" aria-hidden="true"></i>'+element.runtime+'</h2><h2 class="car_director"><i class="fa fa-desktop" aria-hidden="true"></i>'+element.director +'</h2><div class="txt-center"><form><div class="rating"><input id="star5" name="star" type="radio" value="5" class="radio-btn hide" /><label for="star5" >☆</label><input id="star4" name="star" type="radio" value="4" class="radio-btn hide" /><label for="star4" >☆</label><input id="star3" name="star" type="radio" value="3" class="radio-btn hide" /><label for="star3" >☆</label><input id="star2" name="star" type="radio" value="2" class="radio-btn hide" /><label for="star2" >☆</label><input id="star1" name="star" type="radio" value="1" class="radio-btn hide" /><label for="star1" >☆</label><div class="clear"></div></div></form></div></div></div><div class="collapsible-body"><img src='+element.poster+'></div></li></ul></div></div></div></div>');
+  });
 
 
 
-
-//filter select
-	$('#selectpeliculas').change(function(){
-    var criteria = $(this).val();
-    if(criteria == 'all'){
-        $('.lilist').show();
-        return;
-    }
-    $('.country').each(function(i,option){
-        if($(this).html() == criteria){
-            $(this).parent().show();
-        }else {
-            $(this).parent().hide();
-        }
-    	});
-	});	
-
-
+  $('.container-fluid').on('click', function(){
+    var descripcion = "";
+    var imagen ="";
+    var descripcion = $(this).find(".car_name").text();
+    var imagen = $(this).find("img").attr("src");
+    window.location = "index-details.html";
+    console.log(imagen);
+    
+    $('.car_detailpeli').append('<img src='+ imagen +'class="car_imgpeli">')
+  });
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-/*'<div class="container-fluid"><div class="row"><div class="col xs12"><ul class="collapsible" data-collapsible="accordion"><li><div class="collapsible-header"><div class="primeralinea"><h1 class="car_name"><strong>Still Alice</strong></h1><h1 class="car_ano">2014</h1><h1 class="car_categoria">Drama</h1></div><div class="segundalinea"><h2 class="car_duracion"><i class="fa fa-clock-o" aria-hidden="true"></i>101 minutos</h2><h2 class="car_director"><i class="fa fa-desktop" aria-hidden="true"></i>Richard Glatzer</h2><div class="txt-center"><form><div class="rating"><input id="star5" name="star" type="radio" value="5" class="radio-btn hide" /><label for="star5" >☆</label><input id="star4" name="star" type="radio" value="4" class="radio-btn hide" /><label for="star4" >☆</label><input id="star3" name="star" type="radio" value="3" class="radio-btn hide" /><label for="star3" >☆</label><input id="star2" name="star" type="radio" value="2" class="radio-btn hide" /><label for="star2" >☆</label><input id="star1" name="star" type="radio" value="1" class="radio-btn hide" /><label for="star1" >☆</label><div class="clear"></div></div></form></div></div></div><div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div></li></ul></div></div></div>'*/
