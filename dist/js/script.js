@@ -20274,7 +20274,7 @@ $(document).ready(function() {
     	}
     });
 
-    /*----------* NAME *----------*/
+    /*----------* USERNAME *----------*/
     $("input#username").blur(function() {
     	if($(this).val()==''){
     		$(this).addClass('invalid');
@@ -20311,6 +20311,16 @@ $(document).ready(function() {
     	}
     });
 
+    /*----------* PASS *----------*/
+    $("input#pass").blur(function() {
+        if($(this).val()==''){
+            $(this).addClass('invalid');
+        }
+        else {
+            $(this).addClass('valid');
+            $('.mar_btn-create').removeClass('disabled');
+        }
+    }); 
     // ALERTA VALIDACION
     $('.tooltipped').tooltip({delay: 50});
 
