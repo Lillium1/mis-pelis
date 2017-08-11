@@ -7,7 +7,7 @@ var webserver = require('gulp-webserver');
 
 
 gulp.task('script', function(){
-	gulp.src(['node_modules/jquery/dist/jquery.js','node_modules/materialize-css/dist/js/materialize.js','assets/js/main.js','assets/js/common.js'])
+	gulp.src(['node_modules/jquery/dist/jquery.js','node_modules/materialize-css/dist/js/materialize.js','assets/js/*.js'])
 		.pipe(concat('script.js'))
 		.pipe(gulp.dest('dist/js/'));
 });
