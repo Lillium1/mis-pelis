@@ -20317,7 +20317,8 @@ $(document).ready(function() {
 
     /**************** ESTILOS INDEX PROFILE *****************/
 
-    /* --- LOCAL STORAGE---- */
+
+    /* --- LOCAL STORAGE---- 
     $('#create-boton').click(function(){ 
 
       var nom= $('#name').val();
@@ -20328,10 +20329,6 @@ $(document).ready(function() {
       localStorage.setItem(“UserName”, nomUs);
       localStorage.setItem(“Ciudad”, ciud);
 
-		/*$('#first_name').val()= ""; 
-		$('#username').val()= "";
-		$('#country').val()= "";  }*/
-
 		var nombre = localStorage.getItem(“Nombre”);
 		var nombreUsuario = localStorage.getItem(“UserName”);
 		var ciudad = localStorage.getItem(“Ciudad”);
@@ -20340,7 +20337,7 @@ $(document).ready(function() {
 		$('#namelab').append(nombre);
 		$('#ciudadlab').append(ciudad);
 	});
-
+    */
     /**************** ESTILOS INDEX movies *****************/
 
     pelis.forEach(function(element){
