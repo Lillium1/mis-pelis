@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Mis Pelis</title>
 	<!-- Viewport -->
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
 	<!-- Icon -->
 	<link rel="icon" type="image/png" href="assets/img/icon.png" />
@@ -17,17 +17,20 @@
 <body>
 
 	<nav>
-		<div class="nav-wrapper">
-			<a href="#" class="brand-logo center"><h6>CREATE ACCOUNT</h6></a>
-			<ul id="slide-out" class="side-nav">
-				<li><a href="index-login.html">log in</a></li>
-				<li><a href="index-movies.html">Movies</a></li>
-				<li><a href="index-details.html">Details</a></li>
-				<li><a href="index-profile.html">Profile</a></li>
-				<li><a href="index.html">Home</a></li>
-			</ul>
-			<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-			<!-- inicio side-nav -->
+		<div class="container">
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo center"><h6 class="mar_titulo-nav">CREATE ACCOUNT</h6></a>
+				<ul id="slide-out" class="side-nav">
+					<li><a href="index-login.html">log in</a></li>
+					<li><a href="index-movies.html">Movies</a></li>
+					<li><a href="index-details.html">Details</a></li>
+					<li><a href="index-profile.html">Profile</a></li>
+					<li><a href="index.html">Home</a></li>
+				</ul>
+				<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+				<i class="material-icons right">search</i>
+				<!-- inicio side-nav -->
+			</div>
 		</div>
 	</nav><!-- termino navbar y side-nav -->
 
@@ -35,20 +38,20 @@
 	<section class="mar_registro">
 		<div class="row">
 			<form class="col s12">     
-				<div class="input-field col s12"><br>
-					<input id="first_name" type="text" class="validate">
-					<label for="first_name">Name</label>
+				<div class="input-field col s12">
+					<input id="name" type="text" class="validate" onclick="Materialize.toast('Ingrese Nombre', 4000)">
+					<label for="name">Last Name</label>
 				</div>
 				<div class="input-field col s12">
-					<input id="username" type="text" class="validate">
+					<input id="username" type="text" class="validate" onclick="Materialize.toast('Ingrese Usuario', 4000)">
 					<label for="username">Username</label>
 				</div>
 				<div class="input-field col s12">
-					<input id="email" type="email" class="validate">
+					<input id="email" type="email" class="validate" onclick="Materialize.toast('Ingrese Correo Valido (Ej: hola@mispelis.cl)', 4000)">
 					<label for="email">Email</label>
 				</div>
 				<div class="input-field col s12">
-					<input id="country" type="text" class="validate">
+					<input id="country" type="text" class="validate" onclick="Materialize.toast('Ingrese Pais (Ej: Chile) *Primera letra debe ser mayuscula*', 4000)">
 					<label for="country">Country</label>
 				</div>
 			</form>
