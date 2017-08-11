@@ -176,8 +176,6 @@ $(document).ready(function(){
 	});
 
 
-
-
 //filter select
 	$('#selectpeliculas').change(function(){
     var criteria = $(this).val();
