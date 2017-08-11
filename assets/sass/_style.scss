@@ -21,6 +21,9 @@ nav{
 .mar_registro{
 	background-color:$color-plomo;
 	height:100vh;
+	input #name {
+		margin-top: 30px;
+	}
 }
 
 input[type]{
@@ -41,4 +44,14 @@ input[type]{
 
 .mar_btn-createaccount{
 	@extend .mar_btn-login;
+}
+
+// EXTRA
+
+.pau_actor__img {
+	background-color: red;
+}
+
+.pau_actor__container-info {
+	color: #eaeaea;
 }
