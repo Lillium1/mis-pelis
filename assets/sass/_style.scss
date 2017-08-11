@@ -6,41 +6,70 @@ body{
 }
 
 nav{
-	background-color:$color-negro;
-	color:white;
+	@include barra-navegacion();
+		.mar_titulo-nav{
+			margin-top:20px;
+	}
 }
 
 .mar_welcome{
-	background-color:$color-rojo;
-	height:100vh;
+	@include welcome();
+	 .mar_mis-pelis{
+		@include titulo-mis-pelis();
+	}
 }
 
-.mar_mis-pelis{
-	margin-top:50px;
-	font-weight:bolder;
+.logo{
+	margin-top:10px;
 }
 
-.mar_registro{
-	background-color:$color-plomo;
-	height:100vh;
-}
-
-input[type]{
-	background-color:$color-blanco;
-}
-
-.mar_btn-create{
-	background-color:$color-negro;
-	color:white;
-	width:90%;
-}
 
 .mar_btn-login{
-	width:90%;
-	background-color:$color-blanco;
-	color:$color-rojo;
+	@include btn-login();
 }
 
 .mar_btn-createaccount{
 	@extend .mar_btn-login;
+}
+
+.mar_registro{
+	@include registro();
+	 .mar_formulario{
+	margin-top:40px;
+	}
+}
+
+.mar_btn-create{
+	@include btn-create();
+}
+
+//darle color blanco al fondo de input de materialize
+input:not([type]), input[type=date]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=email]:not(.browser-default), input[type=number]:not(.browser-default), input[type=password]:not(.browser-default), input[type=search]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=text]:not(.browser-default), input[type=time]:not(.browser-default), input[type=url]:not(.browser-default), textarea.materialize-textarea{
+	
+	background-color:$color-blanco;
+}
+
+//sección details index
+
+nav.mar_nav-watch{
+	background-color:$color-rojo;
+		.btn-floating.btn-large {
+    		margin-top: -30px;
+	}
+}
+
+//imagen de muestra pues esta se debe llamar desde api
+#mar_imagen-pelicula{
+	@include imagen-detalles();
+}
+//término sección index details
+
+// index-actor -EXTRA-
+
+.pau_actor__img {
+	background-color: red;
+}
+
+.pau_actor__container-info {
+	color: #eaeaea;
 }
